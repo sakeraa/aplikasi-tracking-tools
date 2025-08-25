@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Check Man</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts/dashboard.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Dashboard Tracking Tools</h1>
+        <p>Ringkasan status dan sisa pulsa impact saat ini. Klik baris untuk detail.</p>
+        <a href="index.html" class="back-button">Kembali ke Halaman Utama</a>
+    </header>
+
+    <main>
+        <section class="dashboard-table-container">
+            <h2>Data Impact</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID Impact</th>
+                        <th>Lokasi</th>
+                        <th>Sisa Pulsa (jam)</th>
+                        <th>Status</th>
+                        </tr>
+                </thead>
+                <tbody id="impact-data-body">
+                    </tbody>
+            </table>
+        </section>
+
+        <div id="info-widget" class="widget-container hidden">
+            <div class="widget-content">
+                <span class="widget-close">&times;</span>
+                <h3 id="widget-title"></h3>
+                <div class="widget-section">
+                    <strong>Kondisi Barang:</strong>
+                    <p id="widget-condition"></p>
+                </div>
+                <div class="widget-section">
+                    <strong>Riwayat Servis:</strong>
+                    <ul id="widget-history"></ul>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Aplikasi Tracking Tools<br>Made by MOT POLIJE/22</p>
+    </footer>
+
+</body>
+</html>

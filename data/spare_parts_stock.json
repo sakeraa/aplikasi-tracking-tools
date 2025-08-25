@@ -1,0 +1,86 @@
+[
+    {
+        "part_id": "AIR001",
+        "part_name": "O-Ring Kit",
+        "type": "Air",
+        "stock": 50
+    },
+    {
+        "part_id": "AIR002",
+        "part_name": "Rotor Blade Kit",
+        "type": "Air",
+        "stock": 30
+    },
+    {
+        "part_id": "AIR003",
+        "part_name": "Anvil Assembly 1/2\"",
+        "type": "Air",
+        "stock": 15
+    },
+    {
+        "part_id": "AIR004",
+        "part_name": "Hammer Case Assembly",
+        "type": "Air",
+        "stock": 10
+    },
+    {
+        "part_id": "AIR005",
+        "part_name": "Air Inlet Bushing",
+        "type": "Air",
+        "stock": 40
+    },
+    {
+        "part_id": "AIR006",
+        "part_name": "Trigger Valve",
+        "type": "Air",
+        "stock": 25
+    },
+    {
+        "part_id": "AIR007",
+        "part_name": "Socket Retainer Ring",
+        "type": "Air",
+        "stock": 100
+    },
+    {
+        "part_id": "BAT001",
+        "part_name": "Baterai Lithium-Ion 20V",
+        "type": "Baterai",
+        "stock": 20
+    },
+    {
+        "part_id": "BAT002",
+        "part_name": "Charger Baterai 20V",
+        "type": "Baterai",
+        "stock": 18
+    },
+    {
+        "part_id": "BAT003",
+        "part_name": "Carbon Brush Set",
+        "type": "Baterai",
+        "stock": 80
+    },
+    {
+        "part_id": "BAT004",
+        "part_name": "Switch Assembly",
+        "type": "Baterai",
+        "stock": 22
+    },
+    {
+        "part_id": "BAT005",
+        "part_name": "Anvil Assembly 1/2\" (Cordless)",
+        "type": "Baterai",
+        "stock": 12
+    },
+    {
+        "part_id": "BAT006",
+        "part_name": "Gearbox Assembly",
+        "type": "Baterai",
+        "stock": 8
+    },
+    {
+        "part_id": "BAT007",
+        "part_name": "Detent Pin Anvil",
+        "type": "Baterai",
+        "stock": 75
+    }
+]

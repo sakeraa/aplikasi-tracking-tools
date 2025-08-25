@@ -1,0 +1,158 @@
+[
+    {
+        "id": "IM-001",
+        "location": "UDA DI BALIKIN FIDJAR",
+        "current_pulse": 800,
+        "status": "Full",
+        "spare_parts": [
+            {
+                "name": "Mata Bor 5mm",
+                "quantity": 10
+            },
+            {
+                "name": "Baterai Cadangan",
+                "quantity": 2
+            }
+        ],
+        "service_history": [
+            {
+                "date": "2025-08-25",
+                "notes": "DI CIPOK FIDAJR"
+            }
+        ],
+        "condition": "Old"
+    },
+    {
+        "id": "IM-002",
+        "location": "bengkel perbaikan",
+        "current_pulse": 0,
+        "status": "Service",
+        "spare_parts": []
+    },
+    {
+        "id": "IM-003",
+        "location": "bengkel perbaikan",
+        "current_pulse": 0,
+        "status": "Service",
+        "spare_parts": []
+    },
+    {
+        "id": "IM-004",
+        "location": "Ruang Kontrol",
+        "current_pulse": 507,
+        "status": "Medium",
+        "spare_parts": []
+    },
+    {
+        "id": "IM-005",
+        "location": "PBS",
+        "current_pulse": 800,
+        "status": "Full",
+        "spare_parts": []
+    },
+    {
+        "id": "IM-006",
+        "location": "Area Utara",
+        "current_pulse": 296,
+        "status": "Medium",
+        "spare_parts": []
+    },
+    {
+        "id": "IM-007",
+        "location": "UDA DI BALIKIN FIDJAR",
+        "current_pulse": 800,
+        "status": "Full",
+        "spare_parts": []
+    },
+    {
+        "id": "IM-008",
+        "location": "Bengkel 2",
+        "current_pulse": 776,
+        "status": "Full",
+        "spare_parts": []
+    },
+    {
+        "id": "IM-009",
+        "location": "Ruang Kontrol",
+        "current_pulse": 169,
+        "status": "Low",
+        "spare_parts": []
+    },
+    {
+        "id": "IM-010",
+        "location": "Ruang Kontrol",
+        "current_pulse": 45,
+        "status": "Low",
+        "spare_parts": []
+    },
+    {
+        "id": "IM-011",
+        "location": "Gudang Utama",
+        "current_pulse": -5,
+        "status": "Service",
+        "spare_parts": []
+    },
+    {
+        "id": "IM-012",
+        "location": "strimming 1",
+        "current_pulse": 0,
+        "status": "Service",
+        "spare_parts": []
+    },
+    {
+        "id": "IM-013",
+        "location": "Area Selatan",
+        "current_pulse": 183,
+        "status": "Low",
+        "spare_parts": []
+    },
+    {
+        "id": "IM-014",
+        "location": "Gudang Utama",
+        "current_pulse": 25,
+        "status": "Low",
+        "spare_parts": []
+    },
+    {
+        "id": "IM-015",
+        "location": "Gudang Utama",
+        "current_pulse": 397,
+        "status": "Medium",
+        "spare_parts": []
+    },
+    {
+        "id": "IM-016",
+        "location": "DI RUMAH",
+        "current_pulse": 333,
+        "status": "Medium",
+        "spare_parts": []
+    },
+    {
+        "id": "IM-017",
+        "location": "Ruang Kontrol",
+        "current_pulse": 661,
+        "status": "Full",
+        "spare_parts": []
+    },
+    {
+        "id": "IM-018",
+        "location": "Bengkel 2",
+        "current_pulse": 114,
+        "status": "Low",
+        "spare_parts": []
+    },
+    {
+        "id": "IM-019",
+        "location": "Area Utara",
+        "current_pulse": 169,
+        "status": "Low",
+        "spare_parts": []
+    },
+    {
+        "id": "IM-020",
+        "location": "Gudang Utama",
+        "current_pulse": -1,
+        "status": "Service",
+        "spare_parts": []
+    }
+]

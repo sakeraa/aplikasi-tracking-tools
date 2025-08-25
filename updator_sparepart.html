@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Updator Spare Part</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts/updator_sparepart.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Updator Data Spare Part</h1>
+        <p>Gunakan form di bawah untuk menambah atau memperbarui stok.</p>
+        <a href="index.html" class="back-button">Kembali ke Halaman Utama</a>
+    </header>
+
+    <main>
+        <section class="update-form-container">
+            <h2>Tambah / Perbarui Stok</h2>
+            <p>Jika ID Part sudah ada, stok akan diperbarui. Jika belum ada, part baru akan ditambahkan.</p>
+            <form id="sparepart-update-form">
+                <div class="form-group">
+                    <label for="part-id">ID Part:</label>
+                    <input type="text" id="part-id" name="part-id" placeholder="Contoh: AIR008 atau BAT008" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="part-name">Nama Spare Part (isi jika part baru):</label>
+                    <input type="text" id="part-name" name="part-name" placeholder="Contoh: Kunci Rotor">
+                </div>
+
+                <div class="form-group">
+                    <label for="part-type">Tipe (isi jika part baru):</label>
+                    <select id="part-type" name="part-type">
+                        <option value="">-- Pilih Tipe --</option>
+                        <option value="Air">Air</option>
+                        <option value="Baterai">Baterai</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="part-stock">Jumlah Stok Baru:</label>
+                    <input type="number" id="part-stock" name="part-stock" min="0" placeholder="Contoh: 50" required>
+                </div>
+
+                <button type="submit">Perbarui Data</button>
+            </form>
+            
+            <div id="status-message"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Aplikasi Tracking Tools<br>Made by MOT POLIJE/22</p>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,8 @@
+# Folder virtual environment Python
+venv/
+
+# Folder cache Python
+__pycache__/
+
+# File Python yang terkompilasi
+*.pyc

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Updator Dashboard</title>
+    <link rel="stylesheet" href="styles.css"> 
+    <script src="scripts/updator.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Updator Data Tools</h1>
+        <p>Gunakan form di bawah untuk memperbarui status dan lokasi impact.</p>
+        <a href="index.html" class="back-button">Kembali ke Halaman Utama</a>
+    </header>
+
+    <main>
+        <section class="update-form-container">
+            <h2>Pencarian dan Pembaruan Impact</h2>
+            <form id="update-form">
+                <div class="form-group">
+                    <label for="impact-id">Masukkan ID Impact:</label>
+                    <input type="text" id="impact-id" name="impact-id" placeholder="Contoh: IM-001" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="new-status">Pilih Status Baru:</label>
+                    <select id="new-status" name="new-status" required>
+                        <option value="Full">Full (Setelah Servis)</option>
+                        <option value="Service">Sedang Diservis</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="new-location">Masukkan Lokasi Baru:</label>
+                    <input type="text" id="new-location" name="new-location" placeholder="Contoh: Di Rumah, Bengkel Perbaikan" required>
+                </div>
+
+                <button type="submit">Perbarui Data</button>
+            </form>
+            
+            <div id="status-message"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Aplikasi Tracking Tools<br>Made by MOT POLIJE/22</p>
+    </footer>
+
+</body>
+</html>...
+        </section> <section class="update-form-container">
+            <h2>Tambah Stok Spare Part</h2>
+            <form id="add-sparepart-form">
+                <div class="form-group">
+                    <label for="impact-id-sparepart">Masukkan ID Impact:</label>
+                    <input type="text" id="impact-id-sparepart" name="impact-id-sparepart" placeholder="Contoh: IM-001" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="part-name">Nama Spare Part:</label>
+                    <input type="text" id="part-name" name="part-name" placeholder="Contoh: Mata Bor 5mm" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="part-quantity">Jumlah yang Ditambahkan:</label>
+                    <input type="number" id="part-quantity" name="part-quantity" min="1" placeholder="Contoh: 10" required>
+                </div>
+
+                <button type="submit">Tambah Stok</button>
+            </form>
+            <div id="status-message-sparepart"></div>
+        </section>
+
+    </main>
+...

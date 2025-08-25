@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Updator Detail Impact</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts/updator_detail.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Updator Detail Impact</h1>
+        <p>Perbarui kondisi dan tambahkan riwayat servis untuk setiap impact tool.</p>
+        <a href="index.html" class="back-button">Kembali ke Halaman Utama</a>
+    </header>
+
+    <main>
+        <section class="update-form-container">
+            <h2>Perbarui Kondisi & Riwayat Servis</h2>
+            
+            <div class="form-group">
+                <label for="impact-id-search">Cari ID Impact:</label>
+                <input type="text" id="impact-id-search" placeholder="Contoh: IM-001">
+                <button id="search-btn" style="margin-top: 10px;">Cari</button>
+            </div>
+
+            <div id="update-area" class="hidden">
+                <hr style="margin: 20px 0;">
+                <h3 id="current-impact-id"></h3>
+
+                <form id="condition-form">
+                    <div class="form-group">
+                        <label for="new-condition">Ubah Kondisi Barang:</label>
+                        <select id="new-condition">
+                            <option value="New">New (Baru)</option>
+                            <option value="Old">Old (Lama)</option>
+                        </select>
+                    </div>
+                    <button type="submit">Simpan Kondisi</button>
+                </form>
+
+                <hr style="margin: 20px 0;">
+
+                <form id="service-history-form">
+                    <h4>Tambah Riwayat Servis Baru</h4>
+                    <div class="form-group">
+                        <label for="service-date">Tanggal Servis:</label>
+                        <input type="date" id="service-date" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="service-notes">Catatan Servis:</label>
+                        <textarea id="service-notes" rows="3" placeholder="Contoh: Penggantian Carbon Brush." required></textarea>
+                    </div>
+                    <button type="submit">Tambah Riwayat</button>
+                </form>
+            </div>
+            
+            <div id="status-message"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Aplikasi Tracking Tools<br>Made by MOT POLIJE/22</p>
+    </footer>
+</body>
+</html>
