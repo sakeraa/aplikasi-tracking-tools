@@ -5,34 +5,63 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tracking Tools</title>
     <link rel="stylesheet" href="styles.css">
+    <meta name="theme-color" content="#007bff"/>
+    <link rel="manifest" href="/manifest.json">
 </head>
 <body>
     <header>
         <h1>Aplikasi Tracking Tools</h1>
-        <p>Silakan pilih peran Anda untuk melanjutkan.</p>
+        <p>Silakan pilih peran atau stasiun Anda.</p>
     </header>
 
-    <main class="login-options">
-        <a href="checkman_dashboard.html" class="login-button checkman-button">
-            Login sebagai Check Man
-        </a>
-        <a href="updator_dashboard.html" class="login-button updator-button">
-            Login sebagai Updator Data
-        </a>
-        <a href="sparepart_stock.html" class="login-button checkman-button" style="background-color: #17a2b8;">
-            Lihat Stok Spare Part
-        </a>
-        <a href="updator_sparepart.html" class="login-button updator-button" style="background-color: #ffc107; color: #333;">
-            Update Stok Spare Part
-        </a>
-        <a href="updator_detail.html" class="login-button updator-button" style="background-color: #6f42c1;">
-            Update Detail Impact
-        </a>
+    <main>
+        <section class="station-selection">
+            <h2>Pilih Stasiun Pengecekan</h2>
+            <div class="station-grid">
+                <a href="station_dashboard.html?station=PBS" class="station-button">PBS</a>
+                <a href="station_dashboard.html?station=STRIMMING 1" class="station-button">STRIMMING 1</a>
+                <a href="station_dashboard.html?station=CHASIS 1" class="station-button">CHASIS 1</a>
+                <a href="station_dashboard.html?station=STRIMMING 2" class="station-button">STRIMMING 2</a>
+                <a href="station_dashboard.html?station=CHASIS 2" class="station-button">CHASIS 2</a>
+                <a href="station_dashboard.html?station=FINAL" class="station-button">FINAL</a>
+            </div>
+        </section>
+
+        <hr class="separator">
+
+        <section class="updator-options">
+            <h2>Menu Lainnya</h2>
+            <div class="login-options">
+                 <a href="updator_dashboard.html" class="login-button updator-button">
+                    Update Status & Lokasi
+                </a>
+                <a href="updator_detail.html" class="login-button updator-button" style="background-color: #6f42c1;">
+                    Update Detail Impact
+                </a>
+                 <a href="updator_sparepart.html" class="login-button updator-button" style="background-color: #ffc107; color: #333;">
+                    Update Stok Spare Part
+                </a>
+                 <a href="sparepart_stock.html" class="login-button checkman-button" style="background-color: #17a2b8;">
+                    Lihat Stok Spare Part
+                </a>
+            </div>
+        </section>
     </main>
 
     <footer>
         <p>&copy; 2024 Aplikasi Tracking Tools<br>Made by MOT POLIJE/22</p>
     </footer>
 
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/service-worker.js').then(registration => {
+            console.log('ServiceWorker registration successful');
+          }, err => {
+            console.log('ServiceWorker registration failed: ', err);
+          });
+        });
+      }
+    </script>
 </body>
 </html>

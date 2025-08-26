@@ -1,158 +1,32 @@
 [
-    {
-        "id": "IM-001",
-        "location": "UDA DI BALIKIN FIDJAR",
-        "current_pulse": 800,
-        "status": "Full",
-        "spare_parts": [
-            {
-                "name": "Mata Bor 5mm",
-                "quantity": 10
-            },
-            {
-                "name": "Baterai Cadangan",
-                "quantity": 2
-            }
-        ],
-        "service_history": [
-            {
-                "date": "2025-08-25",
-                "notes": "DI CIPOK FIDAJR"
-            }
-        ],
-        "condition": "Old"
-    },
-    {
-        "id": "IM-002",
-        "location": "bengkel perbaikan",
-        "current_pulse": 0,
-        "status": "Service",
-        "spare_parts": []
-    },
-    {
-        "id": "IM-003",
-        "location": "bengkel perbaikan",
-        "current_pulse": 0,
-        "status": "Service",
-        "spare_parts": []
-    },
-    {
-        "id": "IM-004",
-        "location": "Ruang Kontrol",
-        "current_pulse": 507,
-        "status": "Medium",
-        "spare_parts": []
-    },
-    {
-        "id": "IM-005",
-        "location": "PBS",
-        "current_pulse": 800,
-        "status": "Full",
-        "spare_parts": []
-    },
-    {
-        "id": "IM-006",
-        "location": "Area Utara",
-        "current_pulse": 296,
-        "status": "Medium",
-        "spare_parts": []
-    },
-    {
-        "id": "IM-007",
-        "location": "UDA DI BALIKIN FIDJAR",
-        "current_pulse": 800,
-        "status": "Full",
-        "spare_parts": []
-    },
-    {
-        "id": "IM-008",
-        "location": "Bengkel 2",
-        "current_pulse": 776,
-        "status": "Full",
-        "spare_parts": []
-    },
-    {
-        "id": "IM-009",
-        "location": "Ruang Kontrol",
-        "current_pulse": 169,
-        "status": "Low",
-        "spare_parts": []
-    },
-    {
-        "id": "IM-010",
-        "location": "Ruang Kontrol",
-        "current_pulse": 45,
-        "status": "Low",
-        "spare_parts": []
-    },
-    {
-        "id": "IM-011",
-        "location": "Gudang Utama",
-        "current_pulse": -5,
-        "status": "Service",
-        "spare_parts": []
-    },
-    {
-        "id": "IM-012",
-        "location": "strimming 1",
-        "current_pulse": 0,
-        "status": "Service",
-        "spare_parts": []
-    },
-    {
-        "id": "IM-013",
-        "location": "Area Selatan",
-        "current_pulse": 183,
-        "status": "Low",
-        "spare_parts": []
-    },
-    {
-        "id": "IM-014",
-        "location": "Gudang Utama",
-        "current_pulse": 25,
-        "status": "Low",
-        "spare_parts": []
-    },
-    {
-        "id": "IM-015",
-        "location": "Gudang Utama",
-        "current_pulse": 397,
-        "status": "Medium",
-        "spare_parts": []
-    },
-    {
-        "id": "IM-016",
-        "location": "DI RUMAH",
-        "current_pulse": 333,
-        "status": "Medium",
-        "spare_parts": []
-    },
-    {
-        "id": "IM-017",
-        "location": "Ruang Kontrol",
-        "current_pulse": 661,
-        "status": "Full",
-        "spare_parts": []
-    },
-    {
-        "id": "IM-018",
-        "location": "Bengkel 2",
-        "current_pulse": 114,
-        "status": "Low",
-        "spare_parts": []
-    },
-    {
-        "id": "IM-019",
-        "location": "Area Utara",
-        "current_pulse": 169,
-        "status": "Low",
-        "spare_parts": []
-    },
-    {
-        "id": "IM-020",
-        "location": "Gudang Utama",
-        "current_pulse": -1,
-        "status": "Service",
-        "spare_parts": []
-    }
+    {"id": "IM-001", "jenis": "Battery Impact", "merk": "Makita", "location": "PBS", "current_pulse": 750, "status": "Full", "spare_parts": [], "condition": "Old", "service_history": []},
+    {"id": "IM-002", "jenis": "Air Impact", "merk": "Ingersoll Rand", "location": "STRIMMING 1", "current_pulse": 450, "status": "Medium", "spare_parts": [], "condition": "Old", "service_history": []},
+    {"id": "IM-003", "jenis": "Battery Impact", "merk": "Dewalt", "location": "CHASIS 1", "current_pulse": 150, "status": "Low", "spare_parts": [], "condition": "New", "service_history": []},
+    {"id": "IM-004", "jenis": "Air Impact", "merk": "Bosch", "location": "STRIMMING 2", "current_pulse": 800, "status": "Full", "spare_parts": [], "condition": "Old", "service_history": []},
+    {"id": "IM-005", "jenis": "Battery Impact", "merk": "Milwaukee", "location": "CHASIS 2", "current_pulse": 10, "status": "Service", "spare_parts": [], "condition": "Old", "service_history": []},
+    {"id": "IM-006", "jenis": "Air Impact", "merk": "Makita", "location": "FINAL", "current_pulse": 600, "status": "Full", "spare_parts": [], "condition": "New", "service_history": []},
+    {"id": "IM-007", "jenis": "Battery Impact", "merk": "Bosch", "location": "PBS", "current_pulse": 300, "status": "Medium", "spare_parts": [], "condition": "Old", "service_history": []},
+    {"id": "IM-008", "jenis": "Air Impact", "merk": "Dewalt", "location": "STRIMMING 1", "current_pulse": 50, "status": "Low", "spare_parts": [], "condition": "New", "service_history": []},
+    {"id": "IM-009", "jenis": "Battery Impact", "merk": "Ingersoll Rand", "location": "CHASIS 1", "current_pulse": 780, "status": "Full", "spare_parts": [], "condition": "Old", "service_history": []},
+    {"id": "IM-010", "jenis": "Air Impact", "merk": "Milwaukee", "location": "STRIMMING 2", "current_pulse": 0, "status": "Service", "spare_parts": [], "condition": "Old", "service_history": []},
+    {"id": "IM-011", "jenis": "Battery Impact", "merk": "Makita", "location": "CHASIS 2", "current_pulse": 550, "status": "Full", "spare_parts": [], "condition": "New", "service_history": []},
+    {"id": "IM-012", "jenis": "Air Impact", "merk": "Bosch", "location": "FINAL", "current_pulse": 250, "status": "Low", "spare_parts": [], "condition": "Old", "service_history": []},
+    {"id": "IM-013", "jenis": "Battery Impact", "merk": "Dewalt", "location": "PBS", "current_pulse": 480, "status": "Medium", "spare_parts": [], "condition": "New", "service_history": []},
+    {"id": "IM-014", "jenis": "Air Impact", "merk": "Ingersoll Rand", "location": "STRIMMING 1", "current_pulse": 800, "status": "Full", "spare_parts": [], "condition": "Old", "service_history": []},
+    {"id": "IM-015", "jenis": "Battery Impact", "merk": "Milwaukee", "location": "CHASIS 1", "current_pulse": 15, "status": "Service", "spare_parts": [], "condition": "Old", "service_history": []},
+    {"id": "IM-016", "jenis": "Air Impact", "merk": "Makita", "location": "STRIMMING 2", "current_pulse": 700, "status": "Full", "spare_parts": [], "condition": "New", "service_history": []},
+    {"id": "IM-017", "jenis": "Battery Impact", "merk": "Bosch", "location": "CHASIS 2", "current_pulse": 200, "status": "Low", "spare_parts": [], "condition": "Old", "service_history": []},
+    {"id": "IM-018", "jenis": "Air Impact", "merk": "Dewalt", "location": "FINAL", "current_pulse": 500, "status": "Medium", "spare_parts": [], "condition": "New", "service_history": []},
+    {"id": "IM-019", "jenis": "Battery Impact", "merk": "Ingersoll Rand", "location": "PBS", "current_pulse": 790, "status": "Full", "spare_parts": [], "condition": "Old", "service_history": []},
+    {"id": "IM-020", "jenis": "Air Impact", "merk": "Milwaukee", "location": "STRIMMING 1", "current_pulse": 12, "status": "Service", "spare_parts": [], "condition": "Old", "service_history": []},
+    {"id": "IM-021", "jenis": "Battery Impact", "merk": "Makita", "location": "CHASIS 1", "current_pulse": 650, "status": "Full", "spare_parts": [], "condition": "New", "service_history": []},
+    {"id": "IM-022", "jenis": "Air Impact", "merk": "Bosch", "location": "STRIMMING 2", "current_pulse": 180, "status": "Low", "spare_parts": [], "condition": "Old", "service_history": []},
+    {"id": "IM-023", "jenis": "Battery Impact", "merk": "Dewalt", "location": "CHASIS 2", "current_pulse": 520, "status": "Medium", "spare_parts": [], "condition": "New", "service_history": []},
+    {"id": "IM-024", "jenis": "Air Impact", "merk": "Ingersoll Rand", "location": "FINAL", "current_pulse": 750, "status": "Full", "spare_parts": [], "condition": "Old", "service_history": []},
+    {"id": "IM-025", "jenis": "Battery Impact", "merk": "Milwaukee", "location": "PBS", "current_pulse": 5, "status": "Service", "spare_parts": [], "condition": "Old", "service_history": []},
+    {"id": "IM-026", "jenis": "Air Impact", "merk": "Makita", "location": "STRIMMING 1", "current_pulse": 400, "status": "Medium", "spare_parts": [], "condition": "New", "service_history": []},
+    {"id": "IM-027", "jenis": "Battery Impact", "merk": "Bosch", "location": "CHASIS 1", "current_pulse": 800, "status": "Full", "spare_parts": [], "condition": "Old", "service_history": []},
+    {"id": "IM-028", "jenis": "Air Impact", "merk": "Dewalt", "location": "STRIMMING 2", "current_pulse": 90, "status": "Low", "spare_parts": [], "condition": "New", "service_history": []},
+    {"id": "IM-029", "jenis": "Battery Impact", "merk": "Ingersoll Rand", "location": "CHASIS 2", "current_pulse": 350, "status": "Medium", "spare_parts": [], "condition": "Old", "service_history": []},
+    {"id": "IM-030", "jenis": "Air Impact", "merk": "Milwaukee", "location": "FINAL", "current_pulse": 0, "status": "Service", "spare_parts": [], "condition": "Old", "service_history": []}
 ]
